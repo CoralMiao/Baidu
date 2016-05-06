@@ -1,0 +1,15 @@
+body{
+	behavior:url("csshover.htc");
+}
+/*for IE display BUG*/
+.nav-ul li{
+	display:inline-block;
+	float: left;
+	*display: inline;
+}
+.nav-ul a{
+	display:inline-block;
+	float: left;
+	*display: inline;
+}
+/*end*/
